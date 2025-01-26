@@ -4,7 +4,7 @@ on:
   push:  # push 이벤트
   workflow_dispatch:  # 수동 실행 이벤트
   schedule:
-    - cron: '30 * * * *'  # 매 정각 15분마다 실행
+    - cron: '15 * * * *'  # 매 정각 15분마다 실행
 
 jobs:
   make-issue:
